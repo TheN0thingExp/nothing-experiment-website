@@ -375,6 +375,7 @@ section {
     .navbar {
         gap: 6px;
         padding: 15px 6px;
+        justify-content: space-between;
     }
 
     .navbar a {
