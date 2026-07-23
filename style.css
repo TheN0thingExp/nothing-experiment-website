@@ -137,7 +137,8 @@ box-shadow: 0 0 20px #39ff14;
    ABOUT SECTION
 ========================= */
 
-.about {
+.about,
+.mission {
     padding: 80px 20px;
     text-align: center;
     background: black;
@@ -375,11 +376,31 @@ section {
     .navbar {
         gap: 6px;
         padding: 15px 6px;
-    }
+            }
 
     .navbar a {
         margin: 0 2px;
         font-size: 16px;
     }
 
+}
+/* =========================
+   FOOTER MESSAGE
+========================= */
+
+.footer-message {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
+
+.footer-message p {
+    color: #cccccc;
+    line-height: 1.8;
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+
+.footer-message strong {
+    color: #39ff14;
 }
